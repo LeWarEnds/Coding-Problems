@@ -14,11 +14,11 @@ int main(void) {
 		sum += digit * i;
 	}
 
-	if (sum / 11) {
-		cout << "YES " << endl;
+	if (sum % 11 == 0) {
+		cout << "Legal ISBN" << endl;
 	}
 	else {
-		cout << "NO" << endl;
+		cout << "Illegal ISBN " << endl;
 	}
 
 	system("PAUSE");
