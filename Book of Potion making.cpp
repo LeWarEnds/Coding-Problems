@@ -7,13 +7,14 @@ int main(void) {
 	int digit;
 	int sum = 0;
 	cin >> aValue;
-
+	
+	// i-- will also do the same thing as --i
 	for (int i = 10; i >= 0; --i) {
 		digit = aValue % 10;
 		aValue /= 10;
 		sum += digit * i;
 	}
-
+	
 	if (sum % 11 == 0) {
 		cout << "Legal ISBN" << endl;
 	}
