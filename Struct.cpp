@@ -5,9 +5,11 @@
 #include <algorithm>
 using namespace std;
 
-/*
-    add code for struct here.
-*/
+struct{
+
+// You can add the structure for the code now.
+
+}
 
 int main() {
     Student st;
